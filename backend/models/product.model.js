@@ -8,7 +8,7 @@ const productSchema = new mongoose.Schema({
         required: [true, 'name is require']
     },
     
-    categoryID: {
+    categoryId: {
         type: mongoose.Types.ObjectId,
         required: [ true, 'category is require'],
         ref: 'Category'
